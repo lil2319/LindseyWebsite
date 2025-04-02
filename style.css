@@ -1,0 +1,141 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image:
+        linear-gradient(45deg, lightgoldenrodyellow 26%, transparent 26%),
+        linear-gradient(135deg, lightgoldenrodyellow 26%, transparent 26%),
+        linear-gradient(45deg, transparent 75%, lightgoldenrodyellow 75%),
+        linear-gradient(135deg, transparent 75%, lightgoldenrodyellow 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 0, 10px -10px, 0px 10px;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+    padding: 10px;
+    background: ;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 16px;
+}
+
+.header {
+    padding: 16px;
+    text-align: center;
+    background: rgba(255, 167, 180, 0.576);
+    border: 5px solid rgba(255, 167, 180, 0.7);
+    border-radius: 150px 150px 150px 150px;
+}
+
+.header h1 {
+    font-size: 75px;
+    color: rgb(129, 177, 161);
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    background: lightcyan;
+    padding: 15px 0;
+    border: 5px solid rgba(255, 167, 180, 0.7);
+    border-radius: 4px 4px 4px 4px;
+
+}
+
+.top-nav a {
+    color: darkcyan;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.top-nav a:hover {
+    background-color: rgb(255, 211, 211);
+    color: black;
+}
+
+.about {
+    padding: 16px;
+    text-align: center;
+    background: rgba(255, 218, 185, 0.635);
+    border: 5px solid rgba(255, 167, 180, 0.7);
+    border-radius: 150px 150px 150px 150px;
+
+}
+
+.hobbies {
+    padding: 16px;
+    text-align: center;
+    background: rgba(244, 188, 244, 0.5);
+    border: 5px solid rgba(255, 167, 180, 0.7);
+    border-radius: 150px 150px 150px 150px;
+
+}
+
+.favorites {
+    padding: 16px;
+    text-align: center;
+    background: rgba(200, 250, 200, 0.615);
+    border: 5px solid rgba(255, 167, 180, 0.7);
+    border-radius: 150px 150px 150px 150px;
+}
+
+.gallery {
+    padding: 16px;
+    text-align: center;
+    background: rgba(167, 215, 245, 0.703);
+    border: 5px solid rgba(255, 167, 180, 0.7);
+    border-radius: 150px 150px 150px 150px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+.footer {
+    background-color: lightcyan;
+    color: darkcyan;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    border: 5px solid rgba(255, 167, 180, 0.7);
+    border-radius: 4px 4px 4px 4px;
+}
+
+.footer a {
+    color: darkcyan;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    background-color: rgb(255, 211, 211);
+    color: black;
+}
